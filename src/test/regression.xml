@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression" verbose="1" configfailurepolicy="continue">
+    <test name="regression">
+        <packages>
+            <package name="com.sysco.ogm.api.tests"/>
+        </packages>
+    </test>
+</suite>
